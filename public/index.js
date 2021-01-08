@@ -141,6 +141,8 @@ function sendTransaction(isAdding) {
     // clear form
     nameEl.value = "";
     amountEl.value = "";
+
+    console.error(err);
   });
 }
 
